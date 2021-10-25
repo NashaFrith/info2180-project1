@@ -128,7 +128,10 @@ section.testing div.cta a{
     border-style:hidden;
     border-radius: 5px;
     padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
     color: white;
+
 
 }
 
@@ -142,9 +145,25 @@ section.testing div.container{
     margin-bottom: 3em;
 }
 
+section.stories{
+    padding-top: 2em;
+}
+
+section.stories h2{
+    color: #5A67D8;
+
+}
+
+section.stories h3{
+    font-size: 18px;
+}
+
 section.stories article img{
     width: 10em;
-    margin-right: 1em;
+    height: 10em;
+    margin-right: 2em;
+    border-radius: 50%;
+
 }
 
 section.stories article{
@@ -155,6 +174,26 @@ section.stories article{
     margin-top: 2em;
     margin-bottom: 2em;
     
+}
+
+section.newsletter{
+    background-color: #48BB78;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+section.newsletter form button.btn{
+    background-color: #5A67D8;
+    text-decoration: none;
+    border-style:hidden;
+    border-radius: 3px;
+    padding: 0.5em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    color: white;
+
 }
 
 section.newsletter div.container{
@@ -170,3 +209,12 @@ section.newsletter form{
     flex-flow: row nowrap;
 }
 
+section.newsletter form div.form-group{
+    padding-right: 0.5em;
+}
+
+footer{
+    background-color: #4A5568;
+    color: white;
+    padding: 0.8em;
+}
